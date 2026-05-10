@@ -44,10 +44,6 @@ body {
         color: rgb(228, 103, 193);
     }
 
-.links:checked {
-        color: rgb(232, 255, 142);
-    }
-
 span{
     color: rgb(255, 255, 255);
     font-family: 'Comic Relief', cursive;

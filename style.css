@@ -84,3 +84,16 @@ span {
   color: rgb(255, 255, 255);
   font-family: "Comic Relief", cursive;
 }
+
+.Games {
+  width: 25rem;
+  height: 25rem;
+}
+
+#normal_2 {
+  font-family: "Comic Relief", "Comic Sans MS", sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin: 2rem;
+  display: inline;
+}

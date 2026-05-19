@@ -55,7 +55,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap");
 
-#normal {
+.normal {
   font-family: "Comic Relief", "Comic Sans MS", sans-serif;
   color: rgb(255, 255, 255);
   text-align: center;
@@ -90,7 +90,7 @@ span {
   height: 25rem;
 }
 
-#normal_2 {
+.normal_2 {
   font-family: "Comic Relief", "Comic Sans MS", sans-serif;
   color: rgb(255, 255, 255);
   text-align: center;

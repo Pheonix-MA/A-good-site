@@ -64,6 +64,7 @@
 
 body {
   background-color: rgb(21, 21, 21);
+  scroll-behavior: smooth;
 }
 
 .links {

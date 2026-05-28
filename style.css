@@ -59,7 +59,8 @@
   font-family: "Comic Relief", "Comic Sans MS", sans-serif;
   color: rgb(255, 255, 255);
   text-align: center;
-  margin: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 body {
@@ -95,7 +96,8 @@ span {
   font-family: "Comic Relief", "Comic Sans MS", sans-serif;
   color: rgb(255, 255, 255);
   text-align: center;
-  margin: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   display: inline;
 }
 

@@ -21,3 +21,14 @@ if (doNotClickButton) {
     }
   });
 }
+
+const secretPageButton = document.getElementById("secret-page");
+
+let i = 0;
+
+secretPageButton.addEventListener("click", function () {
+  i++;
+  if (i >= 5) {
+    window.location.href = "Secret.html";
+  }
+});

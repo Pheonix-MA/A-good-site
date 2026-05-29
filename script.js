@@ -22,13 +22,15 @@ if (doNotClickButton) {
   });
 }
 
-const secretPageButton = document.getElementById("secret-page");
+let secretPageElements = ["secret-page1", "secret-page2", "secret-page3", "secret-page4", "secret-page5"];
+
+const secretPageButton = document.getElementById(secretPageElements[Math.floor(Math.random() * secretPageElements.length)]);
 
 let i = 0;
 
 secretPageButton.addEventListener("click", function () {
   i++;
-  if (i >= 5) {
+  if (i >= 3) {
     window.location.href = "Secret.html";
   }
 });

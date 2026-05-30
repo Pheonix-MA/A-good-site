@@ -1,3 +1,5 @@
+// Do Not Click Me Button Logic
+
 let do_not_click_me = [
   "Why did you click me?",
   "I told you not to click me!",
@@ -22,9 +24,19 @@ if (doNotClickButton) {
   });
 }
 
-let secretPageElements = ["secret-page1", "secret-page2", "secret-page3", "secret-page4", "secret-page5"];
+// Secret Page Logic
 
-const secretPageButton = document.getElementById(secretPageElements[Math.floor(Math.random() * secretPageElements.length)]);
+let secretPageElements = [
+  "secret-page1",
+  "secret-page2",
+  "secret-page3",
+  "secret-page4",
+  "secret-page5",
+];
+
+const secretPageButton = document.getElementById(
+  secretPageElements[Math.floor(Math.random() * secretPageElements.length)],
+);
 
 let i = 0;
 
@@ -34,3 +46,10 @@ secretPageButton.addEventListener("click", function () {
     window.location.href = "Secret.html";
   }
 });
+
+// Navigation Bar Logic
+
+const navLinks = document.querySelectorAll(".NavBarHome");
+const burger = document.getElementById("burger");
+
+burger.addEventListener("click", function () {});

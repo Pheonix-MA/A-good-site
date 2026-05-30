@@ -26,9 +26,12 @@
   gap: 1rem;
   flex-wrap: nowrap;
   justify-content: center;
-  text-align: left;
   font-size: 1rem;
   font-family: "Comic Relief", "Comic Sans MS", sans-serif;
+}
+
+.NavbarContainer {
+  display: inline;
 }
 
 .navbar1:hover {
@@ -54,7 +57,6 @@
     "Helvetica Neue",
     sans-serif;
 }
-
 
 .normal {
   font-family: "Comic Relief", "Comic Sans MS", sans-serif;
@@ -95,6 +97,8 @@ span {
 .Games {
   width: 25rem;
   height: 25rem;
+  margin-top: 1.5rem;
+  border-radius: 1rem;
 }
 
 .normal_2 {
@@ -121,4 +125,10 @@ span {
   display: flex;
   justify-content: center;
   width: 100%;
+}
+
+#burger {
+  display: inline;
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
 }

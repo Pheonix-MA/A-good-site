@@ -3,7 +3,7 @@
 let do_not_click_me = [
   "Why did you click me?",
   "I told you not to click me!",
-  "Seriously, stop clicking me!",
+  "Actually, stop clicking me!",
   "Are you sure you want to keep clicking me?",
   "Okay, that's it! I'm done!",
 ];

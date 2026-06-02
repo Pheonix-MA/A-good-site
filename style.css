@@ -129,3 +129,19 @@ span {
   font-size: 1.5rem;
   color: rgb(255, 255, 255);
 }
+
+.navbarContainer {
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  border-radius: 1rem;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.gameContainer {
+  background-color: rgba(100, 200, 200, 0.2);
+  margin: 0 auto;
+  border-radius: 1rem;
+}

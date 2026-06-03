@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
       img.style.width = "100%";
       img.style.height = "100%";
       img.style.objectFit = "cover";
+      img.style.zIndex = "9999";
 
       document.body.appendChild(img);
       setTimeout(function () {

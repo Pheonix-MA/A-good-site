@@ -145,3 +145,27 @@ span {
   margin: 0 auto;
   border-radius: 1rem;
 }
+
+@keyframes GoodAnimation {
+  0% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+#GoodContainer {
+  display: flex;
+  justify-content: center;
+}
+
+#Good {
+  animation: GoodAnimation 1s cubic-bezier(0.4, 1.5, 0.75, 1);
+  color: rgb(255, 255, 255);
+  font-family: "Comic Relief", "Comic Sans MS", sans-serif;
+  font-size: 1rem;
+}

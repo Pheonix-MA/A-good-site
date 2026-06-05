@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       document.body.appendChild(img);
       img.onload = function () {
-        setTimeout(() => img.remove(), 1500);
+        setTimeout(() => img.remove(), 375);
       };
     } else {
       window.location.href = "index.html";

@@ -6,6 +6,10 @@ document.addEventListener("DOMContentLoaded", function () {
     "Actually, stop clicking me!",
     "Are you sure you want to keep clicking me?",
     "Okay, that's it! I'm done!",
+    "Okay, that's it! I'm done!",
+    "Okay, that's it! I'm done!",
+    "If you are that PERSISTENT, then you deserve to know the secret page is hidden in the navigation bar!",
+    "JUMPSCARE",
   ];
 
   let click_count = 0;
@@ -13,6 +17,24 @@ document.addEventListener("DOMContentLoaded", function () {
 
   if (doNotClickButton) {
     doNotClickButton.addEventListener("click", function () {
+      if (click_count == 8) {
+        const img = document.createElement("img");
+        img.src = "Grenn_gummy_jumpscare.gif";
+        img.alt = "Jumpscare";
+        img.style.position = "fixed";
+        img.style.top = "0";
+        img.style.left = "0";
+        img.style.width = "100%";
+        img.style.height = "100%";
+        img.style.objectFit = "cover";
+        img.style.zIndex = "9999";
+
+        document.body.appendChild(img);
+        img.onload = function () {
+          setTimeout(() => img.remove(), 1500);
+          setTimeout(() => (window.location.href = "index.html"), 375);
+        };
+      }
       doNotClickButton.textContent =
         do_not_click_me[Math.min(click_count, do_not_click_me.length - 1)];
 
@@ -66,6 +88,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const navLinks = document.querySelectorAll(".NavBarHome");
   const burger = document.getElementById("burger");
-
-  burger.addEventListener("click", function () {});
 });

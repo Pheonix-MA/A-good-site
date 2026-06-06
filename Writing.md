@@ -1,3 +1,1 @@
-<DOCTYPE HTML>
-
 ## This Page is for Random Ideas we May make.

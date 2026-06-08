@@ -35,6 +35,10 @@
   color: rgb(225, 105, 195);
 }
 
+.navbar1:visited {
+  color: rgb(135, 235, 165);
+}
+
 #CRA {
   color: rgb(255, 255, 255);
   font-size: 2.5rem;

@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
     "Okay, that's it! I'm done!",
     "Okay, that's it! I'm done!",
     "Okay, that's it! I'm done!",
-    "If you are that PERSISTENT, then you deserve to know the secret page is hidden in the punctuation! Click all of the punctuation marks 5 times to see!",
+    "If you are that PERSISTENT, then you deserve to know the secret page is hidden in the punctuation! Click all of the punctuation marks 3 times to see!",
     "JUMPSCARE",
   ];
 

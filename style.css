@@ -101,7 +101,13 @@ span {
   margin-top: 1.5rem;
   border-radius: 1rem;
 }
-
+.secretPageGames {
+  margin-top: 100rem;
+  width: 100%;
+  height: 25rem;
+  margin-top: 1.5rem;
+  border-radius: 1rem;
+}
 .normal_2 {
   font-family: "Comic Relief", "Comic Sans MS", sans-serif;
   color: rgb(255, 255, 255);

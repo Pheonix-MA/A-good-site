@@ -14,4 +14,4 @@ In case you cant see the github page deployment, you can use this link instead h
 This project does not include any AI‑generated code.
 All code is written by humans (mostly @IEYT).
 
-We only use AI‑generated commit messages from GitHub Copilot because they make us look like Senior Devs writing Commits.
+We only use AI‑generated commit messages from GitHub Copilot because they make us think we are really good at Programming and git.
